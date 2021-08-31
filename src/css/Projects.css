@@ -1,5 +1,16 @@
 .projects {
-  width: 100vw;
-  height: 100vh;
-  background-color: teal;
+  height: 100%;
+  background-color: #c4c4c4;
+  padding-top: 24px;
+}
+
+.projects-text {
+  width: 100%;
+  background-color: rebeccapurple;
+  max-width: 500px;
+}
+
+.myCard {
+  height: 350px;
+  border: 1px solid black;
 }

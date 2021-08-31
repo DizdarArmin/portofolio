@@ -4,6 +4,7 @@ export default function Hero() {
   const style = {
     backgroundImage: `url(${HeroImage})`,
     backgroundSize: `cover`,
+    width: `100%`,
   };
   return (
     <section id="hero" style={style}>
