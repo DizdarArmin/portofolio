@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import Footer from "./components/Footer";
 import MobileNavigation from "./components/MobileNavigation";
 import DesktopNavigation from "./components/DesktopNavigation";
@@ -16,6 +15,7 @@ export default function App() {
       <Hero />
       <About />
       <Projects />
+      <Footer />
     </div>
   );
 }

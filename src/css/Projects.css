@@ -1,16 +1,41 @@
 .projects {
   height: 100%;
-  background-color: #c4c4c4;
-  padding-top: 24px;
+  background-color: #eeeeee;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 .projects-text {
   width: 100%;
-  background-color: rebeccapurple;
-  max-width: 500px;
+  word-wrap: break-word;
 }
 
 .myCard {
-  height: 350px;
-  border: 1px solid black;
+  margin-bottom: 16px !important;
+  padding-left: 7.75px;
+  padding-right: 7.75px;
+}
+.image-wrapper {
+  overflow: hidden;
+}
+.card-img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+.cards {
+  margin: 0 auto !important;
+}
+
+.coming-soon {
+  font-size: 17px;
+  font-weight: 700;
+
+  color: white;
+  position: absolute;
+  text-shadow: 1px 1px gray;
 }
