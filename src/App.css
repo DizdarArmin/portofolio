@@ -10,13 +10,22 @@ li {
   list-style: none;
   padding-right: 16px;
 }
+
+a {
+  color: white;
+}
+a:link,
+a:visited {
+  color: #eeee;
+}
+
 .nav-item,
 .nav-brand {
-  text-shadow: 1px 1px gray;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.582);
 }
 
 .desktop {
-  background-color: rgba(228, 176, 5, 0.137);
+  background-color: rgba(104, 104, 104, 0.1);
   position: fixed;
   top: 0;
   width: 100%;

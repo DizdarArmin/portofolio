@@ -2,9 +2,11 @@ import "../css/Projects.css";
 
 import Card from "./Card";
 
-export default function Projects({ projects }) {
+export default function Projects({ projects, setModalData }) {
   function MapProjects() {
-    let mappedProject = projects.map((item, i) => <Card key={i} item={item} />);
+    let mappedProject = projects.map((item, i) => (
+      <Card key={i} item={item} setModalData={setModalData} />
+    ));
     return mappedProject;
   }
 

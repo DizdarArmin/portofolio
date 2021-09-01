@@ -1,0 +1,55 @@
+.modal-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: white;
+  padding: 34px 24px 34px 24px;
+}
+.overlay-style {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+.modal-image {
+  border-radius: 10px;
+  margin-bottom: 16px;
+  width: 100% !important;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+.fa-times {
+  position: fixed;
+  color: red;
+  top: 3pxgt;
+  right: 8px;
+}
+.pill {
+  border: 1px solid gray;
+  color: gray;
+  margin: 4px;
+  border-radius: 25px;
+  padding: 5px 10px 5px 10px;
+}
+
+.modal-text {
+  max-width: 500px;
+}
+.fa-github,
+.fa-globe {
+  margin-right: 8px;
+}

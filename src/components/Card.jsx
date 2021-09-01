@@ -1,10 +1,12 @@
-export default function Card({ item }) {
+import Modal from "./Modal";
+export default function Card({ item, setModalData }) {
   const { name, image, isLocked } = item;
   function Click() {
     if (isLocked) {
       console.log("item is locked");
     } else {
-      alert("Item is not locked");
+      setModalData(item);
+      console.log("item is not locked");
     }
   }
   return (

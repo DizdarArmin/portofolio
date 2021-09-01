@@ -40,22 +40,13 @@
   font-size: 11px;
   padding-left: 8px;
 }
-a {
-  color: white;
-}
-a:link,
-a:visited {
-  color: #eeee;
-}
+
 .mobile {
   position: fixed;
   top: 0;
   z-index: 5;
   width: 100%;
   margin-top: 16px;
-}
-.logo {
-  margin-top: 8px;
 }
 
 .mobile .form-inline {

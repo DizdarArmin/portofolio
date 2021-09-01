@@ -7,10 +7,12 @@ import learning from "../images/learning.jpg";
 import netflix from "../images/netflix.jpg";
 
 export function getProjects() {
-  let locked = true;
+  let locked = false;
 
   return [
     {
+      description: "Description",
+      skills: ["Some", "other", "third"],
       isLocked: false,
       name: "Vegan Restaurant Website",
       image: vegan,
@@ -18,6 +20,8 @@ export function getProjects() {
       repository: "https://github.com/DizdarArmin/portofolio",
     },
     {
+      description: "some",
+      skills: ["Some", "other", "third"],
       isLocked: locked,
       name: "Package Tracker",
       image: packageTracker,
@@ -25,6 +29,8 @@ export function getProjects() {
       repository: "https://github.com/DizdarArmin/portofolio",
     },
     {
+      description: "some",
+      skills: ["Some", "other", "third"],
       isLocked: locked,
       name: "Todo list TDD",
       image: todo,
@@ -33,6 +39,8 @@ export function getProjects() {
       repository: "https://github.com/DizdarArmin/portofolio",
     },
     {
+      description: "some",
+      skills: ["Some", "other", "third"],
       isLocked: locked,
       name: "e-Commerce website",
       image: ecommerce,
@@ -41,6 +49,8 @@ export function getProjects() {
       repository: "https://github.com/DizdarArmin/portofolio",
     },
     {
+      description: "some",
+      skills: ["Some", "other", "third"],
       isLocked: locked,
       name: "BBQ restaurant website",
       image: bbq,
@@ -48,6 +58,8 @@ export function getProjects() {
       repository: "https://github.com/DizdarArmin/portofolio",
     },
     {
+      description: "some",
+      skills: ["Some", "other", "third"],
       isLocked: locked,
       name: "Learning platform",
       image: learning,
@@ -55,6 +67,8 @@ export function getProjects() {
       repository: "https://github.com/DizdarArmin/portofolio",
     },
     {
+      description: "some",
+      skills: ["Some", "other", "third"],
       isLocked: locked,
       name: "Netflix clone",
       image: netflix,
