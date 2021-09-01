@@ -1,3 +1,4 @@
+import { getProjects } from "./data/projects";
 import Footer from "./components/Footer";
 import MobileNavigation from "./components/MobileNavigation";
 import DesktopNavigation from "./components/DesktopNavigation";
@@ -14,7 +15,7 @@ export default function App() {
       <DesktopNavigation />
       <Hero />
       <About />
-      <Projects />
+      <Projects projects ={getProjects()}/>
       <Footer />
     </div>
   );

@@ -1,10 +1,9 @@
 import "../css/Projects.css";
-import { getProjects } from "../data/projects";
+
 import Card from "./Card";
 
-export default function Projects() {
-  function MapProjects() {
-    let projects = getProjects();
+export default function Projects({ projects }) {
+  function MapProjects() {g
     let mappedProject = projects.map((item, i) => <Card key={i} item={item} />);
     return mappedProject;
   }
