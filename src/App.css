@@ -6,3 +6,23 @@
 .row {
   margin: 0 auto !important;
 }
+li {
+  list-style: none;
+  padding-right: 16px;
+}
+.nav-item,
+.nav-brand {
+  text-shadow: 1px 1px gray;
+}
+
+.desktop {
+  background-color: rgba(228, 176, 5, 0.137);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+.container {
+  padding-top: 56px !important;
+  padding-bottom: 56px !important;
+}

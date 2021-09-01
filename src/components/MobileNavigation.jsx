@@ -1,5 +1,6 @@
 import Logo from "../images/Logo.png";
 import "../css/Mobile.css";
+import Navlink from "./NavLink";
 export default function MobileNavigation() {
   return (
     <nav className="mobile">

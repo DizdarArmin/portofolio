@@ -26,7 +26,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  list-style-type: none;
+
   text-align: center;
   background-color: black;
   border-radius: 25px;
@@ -56,4 +56,8 @@ a:visited {
 }
 .logo {
   margin-top: 8px;
+}
+
+.mobile .form-inline {
+  border: 2px solid red;
 }
