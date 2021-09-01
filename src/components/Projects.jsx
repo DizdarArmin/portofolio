@@ -3,7 +3,7 @@ import "../css/Projects.css";
 import Card from "./Card";
 
 export default function Projects({ projects }) {
-  function MapProjects() {g
+  function MapProjects() {
     let mappedProject = projects.map((item, i) => <Card key={i} item={item} />);
     return mappedProject;
   }
