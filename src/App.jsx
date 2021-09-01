@@ -1,4 +1,5 @@
-import { getProjects } from "./data/projects";
+import "./App.css";
+
 import Footer from "./components/Footer";
 import MobileNavigation from "./components/MobileNavigation";
 import DesktopNavigation from "./components/DesktopNavigation";
@@ -7,11 +8,11 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Modal from "./components/Modal";
 
-import "./App.css";
+import { getProjects } from "./data/projects";
 import { useState } from "react";
 
 export default function App() {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [modalItem, setModalItem] = useState(getProjects()[0]);
 
   function toggleModal() {
