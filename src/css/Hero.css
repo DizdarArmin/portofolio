@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 .hero-text {
   text-shadow: 1px 2px #c4c4c4;

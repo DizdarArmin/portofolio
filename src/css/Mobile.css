@@ -1,4 +1,4 @@
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 476px) {
   .desktop {
     display: none;
   }
@@ -15,7 +15,7 @@
     font-size: 17px;
   }
 }
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 477px) {
   .mobile {
     display: none;
   }
