@@ -11,7 +11,7 @@ export default function MobileNavigation() {
         <li>
           <a href="#projects">Projects</a>
         </li>
-        <li className="logo">
+        <li className="logo-img">
           <a href="#hero" className="logo">
             <img src={Logo} alt="logo"></img>
           </a>

@@ -2,12 +2,6 @@ import ReactDom from "react-dom";
 import Pill from "./Pill";
 import "../css/Modal.css";
 
-/* isLocked: false,
-name: "Vegan Restaurant Website",
-image: vegan,
-hosting: "https://github.com/DizdarArmin",
-repository: "https://github.com/DizdarArmin/portofolio", */
-
 export default function Modal({ modalItem, toggleModal }) {
   const { name, description, skills, image, hosting, repository } = modalItem;
   return ReactDom.createPortal(
