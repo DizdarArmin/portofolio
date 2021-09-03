@@ -1,49 +1,60 @@
+import Typescript from "../images/ts.png";
+import Firebase from "../images/firebase.png";
+import Azure from "../images/azure.png";
+import Csharp from "../images/csharp.png";
+import React from "../images/react.png";
+import Javascript from "../images/javascript.png";
+import DotNet from "../images/dotnet.png";
+import Bootstrap from "../images/bootstrap.png";
+import Figma from "../images/figma.png";
+import Java from "../images/java.png";
+import CSS from "../images/css.png";
 export function getTechStack() {
   return [
     {
       name: "React.js",
-      iconClass: "fab fa-react fa-2x",
+      image: React,
     },
     {
       name: "Javascript",
-      iconClass: "fab fa-js-square fa-2x",
+      image: Javascript,
     },
     {
       name: "Typescript",
-      iconClass: "fab fa-react fa-2x",
+      image: Typescript,
     },
     {
       name: "Firebase",
-      iconClass: "fab fa-google fa-2x",
+      image: Firebase,
     },
     {
       name: "Azure",
-      iconClass: "fas fa-server fa-2x",
+      image: Azure,
     },
     {
       name: " Java",
-      iconClass: "fab fa-java fa-2x",
+      image: Java,
     },
 
     {
       name: "C#",
-      iconClass: "fas fa-terminal fa-2x",
+      image: Csharp,
     },
     {
       name: ".Net",
-      iconClass: "fab fa-windows fa-2x",
+      image: DotNet,
     },
     {
       name: "CSS",
-      iconClass: "fab fa-css3 fa-2x",
+      image: CSS,
     },
     {
       name: "Bootstrap",
-      iconClass: "fab fa-bootstrap fa-2x",
+      image: Bootstrap,
     },
     {
       name: "Figma",
-      iconClass: "fab fa-figma fa-2x",
+      image: Figma,
     },
   ];
 }

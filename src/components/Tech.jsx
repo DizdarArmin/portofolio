@@ -1,10 +1,11 @@
 export default function Tech({ item }) {
-  const { name, iconClass } = item;
+  const { name, image } = item;
   return (
-    <div className="col-3 text-muted text-center">
-      <div className="m-1">
-        <i className={iconClass}></i>
-        <h6>{name}</h6>
+    <div className="col-3 text-dark text-center">
+      <div className=" card-img">
+        <img src={image} />
+
+        <h6 className="pt-1">{name}</h6>
       </div>
     </div>
   );
