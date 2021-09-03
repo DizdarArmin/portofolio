@@ -8,7 +8,7 @@ export default function Container({
   return (
     <section
       id={id}
-      className="container-fluid"
+      className="container-fluid pt-5"
       style={{ backgroundColor: bgColor }}
     >
       <div className="container">

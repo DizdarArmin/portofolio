@@ -1,15 +1,3 @@
-.projects {
-  height: 100%;
-  background-color: #eeeeee;
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.projects-text {
-  width: 100%;
-  word-wrap: break-word;
-}
-
 .myCard {
   margin-bottom: 16px !important;
   padding-left: 7.75px;
