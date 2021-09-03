@@ -6,5 +6,6 @@
 [Component tree](https://whimsical.com/portofolio-NTyd9t6Ph2gxskozrnF2F3).
 
 
-In the project directory, you can run:
-### `npm start`
+Project is bootstraped with react-create-app.
+
+If You want to enable rest of the incoming  projects modals go to /src/data/projects.js and set locked to false 
