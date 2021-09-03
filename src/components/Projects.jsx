@@ -1,32 +1,31 @@
 import "../css/Projects.css";
+import { getProjects } from "../data/projects";
 
+import Container from "./Container";
 import Card from "./Card";
 
-export default function Projects({ projects, setModalData }) {
+const project = {
+  title: "Projects",
+  description:
+    "These are the projects that I will make during my frontend course at Novare Potential",
+};
+
+export default function Projects({ setModalData }) {
+  let projects = getProjects();
+
   function MapProjects() {
-    let mappedProject = projects.map((item, i) => (
+    return projects.map((item, i) => (
       <Card key={i} item={item} setModalData={setModalData} />
     ));
-    return mappedProject;
   }
 
   return (
-    <section className="projects container-fluid" id="projects">
-      <div className="container">
-        <div className="row wrapper">
-          <h2 className="col-12">Projects</h2>
-        </div>
-
-        <div className="row wrapper">
-          <div className="col-12 col-md-3 projects-text">
-            <p className="projects-description">
-              These are the projects that I will make during my frontend course
-              at Novare Potential
-            </p>
-          </div>
-          <div className="col-12 col-md-9 row cards">{MapProjects()}</div>
-        </div>
-      </div>
-    </section>
+    <Container
+      id="projects"
+      bgColor="#eeeeee"
+      title={project.title}
+      description={project.description}
+      mapping={MapProjects()}
+    />
   );
 }

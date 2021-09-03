@@ -7,12 +7,13 @@ import learning from "../images/learning.jpg";
 import netflix from "../images/netflix.jpg";
 
 export function getProjects() {
-  let locked = false;
+  let locked = true;
 
   return [
     {
-      description: "Description",
-      skills: ["Some", "other", "third"],
+      description:
+        "Showcase of restaurants meals, offers and services. Technologies used:",
+      skills: ["React.js", "CSS", "Bootstrap"],
       isLocked: false,
       name: "Vegan Restaurant Website",
       image: vegan,
