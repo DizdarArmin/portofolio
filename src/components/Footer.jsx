@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="text-white text-center bg-dark">
+    <div className="text-white text-center bg-dark p-4">
       <div>
         <a href="https://www.linkedin.com/in/armindizdar/">
           <i class="fab fa-linkedin fa-3x m-2"></i>

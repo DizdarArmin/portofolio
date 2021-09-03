@@ -45,3 +45,7 @@ a:visited {
   padding-top: 56px !important;
   padding-bottom: 56px !important;
 }
+
+h6 {
+  font-size: 12px;
+}
