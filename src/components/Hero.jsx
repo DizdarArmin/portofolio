@@ -6,6 +6,7 @@ export default function Hero() {
     backgroundSize: `cover`,
     width: `100%`,
   };
+
   return (
     <section id="hero" style={style}>
       <div className="hero-text text-right">

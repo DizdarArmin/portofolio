@@ -1,6 +1,11 @@
 import Logo from "../images/Logo.png";
 import Navlink from "./NavLink";
 import "../css/Mobile.css";
+
+// Tip, use the word Navigation and then the device.  Example:
+// NavigationDesktop
+// NavigationMobile
+// so they are grouped in the sidebar
 export default function DesktopNavigation() {
   return (
     <nav className="navbar desktop">

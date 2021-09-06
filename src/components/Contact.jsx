@@ -1,4 +1,5 @@
 export default function Contact() {
+  // This component if fine, but you could use pure CSS to achieve the same effect withouth making nested divs.
   return (
     <section
       id="contact"

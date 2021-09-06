@@ -1,3 +1,4 @@
+// Project files
 import vegan from "../images/vegan.jpg";
 import packageTracker from "../images/package.jpg";
 import todo from "../images/todo.jpg";
@@ -7,7 +8,9 @@ import learning from "../images/learning.jpg";
 import netflix from "../images/netflix.jpg";
 
 export function getProjects() {
-  let locked = true;
+  let locked = true; // this should not be a global, we should be able to lock or unlock everyhing individually.
+  // (i know, i can removed the locked for the ones being unlocked but you get the idea)
+  // Again this should be a JSON
 
   return [
     {
