@@ -9,6 +9,9 @@ import Bootstrap from "../images/bootstrap.png";
 import Figma from "../images/figma.png";
 import Java from "../images/java.png";
 import CSS from "../images/css.png";
+
+// space between elements and again this can be a json.
+// Regarding the images, remind explain how to that on JSON while keeping the project structure...
 export function getTechStack() {
   return [
     {

@@ -1,3 +1,4 @@
+// This is no data, this is a react component. It should be data if it was stored as JSON -1
 export function getInfoAboutMe() {
   return (
     <p>

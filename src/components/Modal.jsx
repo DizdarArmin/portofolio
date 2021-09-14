@@ -4,6 +4,7 @@ import "../css/Modal.css";
 
 export default function Modal({ modalItem, toggleModal }) {
   const { name, description, skills, image, hosting, repository } = modalItem;
+
   return ReactDom.createPortal(
     <div className="overlay-style">
       <div className="modal-style row">
