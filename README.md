@@ -8,4 +8,4 @@
 
 Project is bootstraped with react-create-app.
 
-If You want to enable rest of the incoming  projects modals go to /src/data/projects.js and set locked to false 
+
