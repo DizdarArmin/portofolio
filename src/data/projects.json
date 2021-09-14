@@ -1,0 +1,76 @@
+{
+  "title": "Projects",
+  "description": "These are the projects that I will make during my frontend course at Novare Potential.",
+  "list": [
+    {
+      "description": "Showcase of restaurants meals, offers and services. Technologies used:",
+      "skills": [
+        "React.js",
+        "CSS",
+        "Bootstrap",
+        "Material UI",
+        "React Router",
+        "JSON"
+      ],
+      "isLocked": false,
+      "name": "Vegan Restaurant Website",
+      "image": "/images/projects/vegan.gif",
+      "hosting": "https://vegan-restaurant-site.web.app/",
+      "repository": "https://github.com/DizdarArmin/vegan-restaurant"
+    },
+    {
+      "description": "some",
+      "skills": ["Some", "other", "third"],
+      "isLocked": true,
+      "name": "Package Tracker",
+      "image": "/images/projects/package.jpg",
+      "hosting": "https://github.com/DizdarArmin",
+      "repository": "https://github.com/DizdarArmin/portofolio"
+    },
+    {
+      "description": "some",
+      "skills": ["Some", "other", "third"],
+      "isLocked": true,
+      "name": "Todo list TDD",
+      "image": "/images/projects/todo.jpg",
+      "hosting": "https://github.com/DizdarArmin",
+      "repository": "https://github.com/DizdarArmin/portofolio"
+    },
+    {
+      "description": "some",
+      "skills": ["Some", "other", "third"],
+      "isLocked": true,
+      "name": "e-Commerce website",
+      "image": "/images/projects/ecommerce.jpg",
+      "hosting": "https://github.com/DizdarArmin",
+      "repository": "https://github.com/DizdarArmin/portofolio"
+    },
+    {
+      "description": "some",
+      "skills": ["Some", "other", "third"],
+      "isLocked": true,
+      "name": "BBQ restaurant website",
+      "image": "/images/projects/bbq.jpg",
+      "hosting": "https://github.com/DizdarArmin",
+      "repository": "https://github.com/DizdarArmin/portofolio"
+    },
+    {
+      "description": "some",
+      "skills": ["Some", "other", "third"],
+      "isLocked": true,
+      "name": "Learning platform",
+      "image": "/images/projects/learning.jpg",
+      "hosting": "https://github.com/DizdarArmin",
+      "repository": "https://github.com/DizdarArmin/portofolio"
+    },
+    {
+      "description": "some",
+      "skills": ["Some", "other", "third"],
+      "isLocked": true,
+      "name": "Netflix clone",
+      "image": "/images/projects/netflix.jpg",
+      "hosting": "https://github.com/DizdarArmin",
+      "repository": "https://github.com/DizdarArmin/portofolio"
+    }
+  ]
+}

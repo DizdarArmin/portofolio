@@ -1,14 +1,18 @@
 import ReactDom from "react-dom";
-import Pill from "./Pill";
 import "../css/Modal.css";
 
-export default function Modal({ modalItem, toggleModal }) {
+export default function Modal({ modalItem, modalState }) {
   const { name, description, skills, image, hosting, repository } = modalItem;
+  const [showModal, setShowModal] = modalState;
+  if (!showModal) return null;
 
   return ReactDom.createPortal(
     <div className="overlay-style">
       <div className="modal-style row">
-        <i onClick={() => toggleModal()} className="fas fa-times fa-2x"></i>
+        <i
+          onClick={() => setShowModal(!showModal)}
+          className="fas fa-times fa-2x"
+        ></i>
         <div className="col-12 col-md-6">
           <img className="img img-fluid modal-image" src={image}></img>
         </div>
@@ -19,18 +23,28 @@ export default function Modal({ modalItem, toggleModal }) {
           <p>{description}</p>
 
           <div className="row">
-            {skills.map((name) => (
-              <Pill name={name} />
+            {skills.map((skill) => (
+              <div className="pill">{skill}</div>
             ))}
           </div>
           <br />
 
-          <a href={hosting} className=" btn btn-dark mb-2">
+          <a
+            href={hosting}
+            className=" btn btn-dark mb-2"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fas fa-globe fa-2x"></i>
             Visit website/app
           </a>
 
-          <a href={repository} className="btn btn-outline-dark">
+          <a
+            href={repository}
+            className="btn btn-outline-dark"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fab fa-github fa-2x"></i>
             Git repository
           </a>

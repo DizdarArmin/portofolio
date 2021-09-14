@@ -1,11 +1,5 @@
-// Lock a prettier putting your function arguments in a vertical line, this can be grouped to avoid it.
-export default function Container({
-  title,
-  description,
-  mapping,
-  bgColor,
-  id,
-}) {
+// prettier-ignore
+export default function Container({title,description,mapping,bgColor,id,}){
   return (
     <section
       id={id}

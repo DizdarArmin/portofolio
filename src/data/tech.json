@@ -1,0 +1,50 @@
+{
+  "title": "Tech",
+  "description": "Technologies that I'm comfortable with.",
+  "list": [
+    {
+      "name": "React.js",
+      "image": "/images/tech/react.png"
+    },
+    {
+      "name": "Javascript",
+      "image": "/images/tech/javascript.png"
+    },
+    {
+      "name": "Typescript",
+      "image": "/images/tech/ts.png"
+    },
+    {
+      "name": "Firebase",
+      "image": "/images/tech/firebase.png"
+    },
+    {
+      "name": "Azure",
+      "image": "/images/tech/azure.png"
+    },
+    {
+      "name": "Java",
+      "image": "/images/tech/java.png"
+    },
+    {
+      "name": "C#",
+      "image": "/images/tech/csharp.png"
+    },
+    {
+      "name": ".Net",
+      "image": "/images/tech/dotnet.png"
+    },
+    {
+      "name": "CSS",
+      "image": "/images/tech/css.png"
+    },
+    {
+      "name": "Bootstrap",
+      "image": "/images/tech/bootstrap.png"
+    },
+    {
+      "name": "Figma",
+      "image": "/images/tech/figma.png"
+    }
+  ]
+}
