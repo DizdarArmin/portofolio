@@ -20,7 +20,7 @@ export default function Modal({ modalItem, modalState }) {
         <div className="col-12 col-md-6 modal-text">
           <h3>{name}</h3>
           <br />
-          <p>{description}</p>
+          <p className="font-italic">{description}</p>
 
           <div className="row">
             {skills.map((skill) => (
