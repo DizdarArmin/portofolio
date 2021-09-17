@@ -13,7 +13,6 @@ export default function About() {
           <div className="col col-12 col-xs-12 col-sm-6 col-md-6 about-text py-4">
             <h2>About me</h2>
             <p>{about.one}</p>
-
             <p>{about.two}</p>
           </div>
         </div>

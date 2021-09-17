@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import Modal from "./components/Modal";
 import Technologies from "./components/Technologies";
 import Contact from "./components/Contact";
-import "./App.css"; // this goes inside proejct files
+import "./App.css";
 import Navigation from "./components/Navigation";
 
 export default function App() {
@@ -22,16 +22,10 @@ export default function App() {
   return (
     <div className="App">
       <Navigation />
-
       <Hero />
       <About />
-
       <Projects setModalData={setModalData} />
-      {/* The logic of the toggle modal can be set here instead on toggleModal() */}
-      {/* toggleModal={()=>setShowModal(!showModal)} */}
-
       <Modal modalItem={modalItem} modalState={[showModal, setShowModal]} />
-
       <Technologies />
       <Contact />
       <Footer />
