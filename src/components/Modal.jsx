@@ -2,7 +2,8 @@ import ReactDom from "react-dom";
 import "../css/Modal.css";
 
 export default function Modal({ modalItem, modalState }) {
-  const { name, description, skills, image, hosting, repository } = modalItem;
+  const { name, description, skills, imageGif, hosting, repository } =
+    modalItem;
   const [showModal, setShowModal] = modalState;
   if (!showModal) return null;
 
@@ -14,7 +15,7 @@ export default function Modal({ modalItem, modalState }) {
           className="fas fa-times fa-2x"
         ></i>
         <div className="col-12 col-md-6">
-          <img className="img img-fluid modal-image" src={image}></img>
+          <img className="img img-fluid modal-image" src={imageGif}></img>
         </div>
 
         <div className="col-12 col-md-6 modal-text">

@@ -14,27 +14,30 @@
       ],
       "isLocked": false,
       "name": "Vegan Restaurant Website",
-      "image": "/images/projects/vegan.gif",
+      "image": "/images/projects/vegan.png",
+      "imageGif": "/images/projects/vegan.gif",
       "hosting": "https://vegan-restaurant-site.web.app/",
       "repository": "https://github.com/DizdarArmin/vegan-restaurant"
     },
     {
-      "description": "some",
-      "skills": ["Some", "other", "third"],
-      "isLocked": true,
+      "description": "This web app is a showcase of packages provided by an API",
+      "skills": ["React.js", "SASS", "Vanta.js", "Firebase", "Gsap animations"],
+      "isLocked": false,
       "name": "Package Tracker",
-      "image": "/images/projects/package.jpg",
-      "hosting": "https://github.com/DizdarArmin",
+      "image": "/images/projects/package.png",
+      "imageGif": "/images/projects/package.gif",
+      "hosting": "https://deliware-326814.web.app/",
       "repository": "https://github.com/DizdarArmin/portofolio"
     },
     {
-      "description": "some",
-      "skills": ["Some", "other", "third"],
-      "isLocked": true,
+      "description": "Goal of this project was to get familiar with test driven development",
+      "skills": ["React.js", "SASS", "Bootstrap"],
+      "isLocked": false,
       "name": "Todo list TDD",
-      "image": "/images/projects/todo.jpg",
-      "hosting": "https://github.com/DizdarArmin",
-      "repository": "https://github.com/DizdarArmin/portofolio"
+      "image": "/images/projects/todo.png",
+      "imageGif": "/images/projects/todo.png",
+      "hosting": "https://tdd-shopping-list.web.app/",
+      "repository": "https://github.com/DizdarArmin/tdd-shopping-list"
     },
     {
       "description": "some",
