@@ -43,15 +43,6 @@
       "description": "some",
       "skills": ["Some", "other", "third"],
       "isLocked": true,
-      "name": "e-Commerce website",
-      "image": "/images/projects/ecommerce.jpg",
-      "hosting": "https://github.com/DizdarArmin",
-      "repository": "https://github.com/DizdarArmin/portofolio"
-    },
-    {
-      "description": "some",
-      "skills": ["Some", "other", "third"],
-      "isLocked": true,
       "name": "BBQ restaurant website",
       "image": "/images/projects/bbq.jpg",
       "hosting": "https://github.com/DizdarArmin",
