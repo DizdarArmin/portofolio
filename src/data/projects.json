@@ -40,22 +40,24 @@
       "repository": "https://github.com/DizdarArmin/tdd-shopping-list"
     },
     {
-      "description": "some",
-      "skills": ["Some", "other", "third"],
-      "isLocked": true,
+      "description": "Restaurant menu management and display. Visit /admin. Login not required",
+      "skills": ["Firebase", "Typescript", "Sass", "React.js"],
+      "isLocked": false,
       "name": "BBQ restaurant website",
-      "image": "/images/projects/bbq.jpg",
-      "hosting": "https://github.com/DizdarArmin",
-      "repository": "https://github.com/DizdarArmin/portofolio"
+      "image": "/images/projects/bbq.png",
+      "imageGif": "/images/projects/bbq.png",
+      "hosting": "https://roastello.web.app/",
+      "repository": "https://github.com/DizdarArmin/bbq-restaurant"
     },
     {
-      "description": "some",
-      "skills": ["Some", "other", "third"],
-      "isLocked": true,
+      "description": "Where teachers can share links and files with students. Sign up for student account. Teacher/admin account assigned on demand",
+      "skills": ["Firebase", "React.js", "Sass"],
+      "isLocked": false,
       "name": "Learning platform",
       "image": "/images/projects/learning.jpg",
-      "hosting": "https://github.com/DizdarArmin",
-      "repository": "https://github.com/DizdarArmin/portofolio"
+      "imageGif": "/images/projects/learning.jpg",
+      "hosting": "https://filolinko.web.app/",
+      "repository": "https://github.com/DizdarArmin/learning-management-platform"
     },
     {
       "description": "some",
