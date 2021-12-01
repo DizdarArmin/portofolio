@@ -60,13 +60,20 @@
       "repository": "https://github.com/DizdarArmin/learning-management-platform"
     },
     {
-      "description": "some",
-      "skills": ["Some", "other", "third"],
-      "isLocked": true,
+      "description": "Netflix clone with content management capability",
+      "skills": [
+        "React.js",
+        "Javascript",
+        "Firebase Auth",
+        "Firebase Storage",
+        "Firestore"
+      ],
+      "isLocked": false,
       "name": "Netflix clone",
-      "image": "/images/projects/netflix.jpg",
-      "hosting": "https://github.com/DizdarArmin",
-      "repository": "https://github.com/DizdarArmin/portofolio"
+      "image": "/images/projects/netflix.png",
+      "imageGif": "/images/projects/netflix.png",
+      "hosting": "https://netflix-cloney.web.app/",
+      "repository": "https://github.com/DizdarArmin/netflix-cloney"
     }
   ]
 }

@@ -1,4 +1,5 @@
 .myCard {
+  cursor: pointer;
   margin-bottom: 16px !important;
   padding-left: 7.75px;
   padding-right: 7.75px;

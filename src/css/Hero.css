@@ -9,11 +9,9 @@
   padding-right: 48px;
 }
 .hero-text {
-  text-shadow: 1px 2px 5px #c4c4c4;
+  text-shadow: 1px 2px 5px gray;
   font-family: "Chango", cursive;
-  color: white;
+  color: black !important;
 
-  -webkit-text-fill-color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: gray;
+  -webkit-text-fill-color: yellow;
 }
